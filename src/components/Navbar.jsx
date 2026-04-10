@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import Login from '../page/Login';
 
 function Navbar() {
   const location = useLocation();
@@ -33,13 +34,13 @@ function Navbar() {
         <div className="relative h-[40px] flex justify-center items-center">
           <div className="flex flex-row justify-center items-center gap-5 mr-5">
             <Link
-              to="/login"
+              to="/loginPage"
               className="h-10 px-5 border-1 border-black text-base flex justify-center items-center transition duration-200 hover:bg-black hover:text-white hover:border-transparent"
             >
               Login
             </Link>
             <Link
-              to="/register"
+              to="/registerPage"
               className="h-10 px-4 border-1 border-black text-base flex justify-center items-center transition duration-200 hover:bg-black hover:text-white hover:border-transparent"
             >
               Register
