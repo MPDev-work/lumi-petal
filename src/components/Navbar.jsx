@@ -31,20 +31,6 @@ function Navbar() {
           />
         </form>
         <div className="relative h-[40px] flex justify-center items-center">
-          {/* <div className="mr-6 flex flex-row gap-3 justify-center items-centercursor-pointer">
-            <img
-              className="h-[36px] w-[36px] aspect-square object-cover rounded-full"
-              src={pfpImage}
-              alt="user image"
-            />
-            <i className="bi bi-check-circle-fill absolute left-[26px] top-[50%] text-xs text-blue-600 bg-white px-[calc(7px/3)] pt-[calc(3px/4)] rounded-full"></i>
-            <div className="flex flex-col justify-center items-start">
-              <p className="text-gray-700 text-sm font-medium leading-4">
-                Aoi Tenten
-              </p>
-              <p className="text-xs font-medium text-blue-500">Active</p>
-            </div>
-          </div> */}
           <div className="flex flex-row justify-center items-center gap-5 mr-5">
             <Link
               to="/login"
