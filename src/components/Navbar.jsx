@@ -1,4 +1,3 @@
-import pfpImage from '../assets/pfp.PNG';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
@@ -32,7 +31,7 @@ function Navbar() {
           />
         </form>
         <div className="relative h-[40px] flex justify-center items-center">
-          <div className="mr-6 flex flex-row gap-3 justify-center items-centercursor-pointer">
+          {/* <div className="mr-6 flex flex-row gap-3 justify-center items-centercursor-pointer">
             <img
               className="h-[36px] w-[36px] aspect-square object-cover rounded-full"
               src={pfpImage}
@@ -45,6 +44,20 @@ function Navbar() {
               </p>
               <p className="text-xs font-medium text-blue-500">Active</p>
             </div>
+          </div> */}
+          <div className="flex flex-row justify-center items-center gap-5 mr-5">
+            <Link
+              to="/login"
+              className="h-10 px-5 border-1 border-black text-base flex justify-center items-center transition duration-200 hover:bg-black hover:text-white hover:border-transparent"
+            >
+              Login
+            </Link>
+            <Link
+              to="/register"
+              className="h-10 px-4 border-1 border-black text-base flex justify-center items-center transition duration-200 hover:bg-black hover:text-white hover:border-transparent"
+            >
+              Register
+            </Link>
           </div>
           <Link
             to="/notification"
