@@ -61,7 +61,7 @@ function FooterBar() {
           <h1 className="text-2xl font-semibold tracking-tight">Quick link</h1>
           <ul className="list-none flex flex-col justify-start items-start gap-1.5">
             <li>
-              <Link className="underline" to="/index">
+              <Link className="underline" to="/">
                 Home
               </Link>
             </li>

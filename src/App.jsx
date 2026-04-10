@@ -21,9 +21,11 @@ function App() {
       <Navbar />
       {/* <Ads /> */}
       <Routes>
-        <Route path="/index" element={<IndexPage />} />
-        <Route path="/category" element={<Categroy />}></Route>
-        <Route path="/brand" element={<Brand />}></Route>
+        {/* Changed path from "/index" to "/" to make it the landing page */}
+        <Route path="/" element={<IndexPage />} />
+
+        <Route path="/category" element={<Categroy />} />
+        <Route path="/brand" element={<Brand />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/freeDelivery" element={<FreeDelivery />} />
         <Route path="/bag" element={<Bag />} />
