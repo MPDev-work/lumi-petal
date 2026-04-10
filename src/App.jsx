@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import IndexPage from './page/IndexPage.jsx';
 import Explore from './page/Explore.jsx';
 import Brand from './page/Brand.jsx';
@@ -17,11 +17,11 @@ import NewNavBar from './components/NewNavBar.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       {/* <Ads /> */}
       <Routes>
-        <Route path="/" element={<IndexPage />} />
+        <Route path="/index" element={<IndexPage />} />
         <Route path="/category" element={<Categroy />}></Route>
         <Route path="/brand" element={<Brand />}></Route>
         <Route path="/explore" element={<Explore />} />
@@ -34,7 +34,7 @@ function App() {
         <Route path="/weyoung" element={<WeyoungMainPage />} />
       </Routes>
       <FooterBar />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
