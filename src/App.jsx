@@ -3,7 +3,7 @@ import IndexPage from './page/IndexPage.jsx';
 import Explore from './page/Explore.jsx';
 import Brand from './page/Brand.jsx';
 import FreeDelivery from './page/FreeDelivery.jsx';
-import Categroy from './page/Categroy.jsx'; // Kept spelling as requested
+import Categroy from './page/Categroy.jsx';
 import Bag from './page/Bag.jsx';
 import Notification from './page/NotificationPage.jsx';
 import PhkaMainPage from './page/PkhaMainPage.jsx';

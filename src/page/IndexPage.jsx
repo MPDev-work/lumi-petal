@@ -8,8 +8,7 @@ import Ads1 from '../assets/gradian/gradiancollection.jpg';
 import phkaproduct from '../assets/Phka/phkaslacollection.jpg';
 import skin1004banner from '../assets/skin1004/skin1004banner.webp';
 import ImageSlider from '../components/ImageSlider';
-import Navbar from '../components/Navbar';
-import FooterBar from '../components/FooterBar';
+import Reviews from '../components/Reviews';
 function indexPage() {
   const categoryAds = [
     { id: 1, category: 'Blush' },
@@ -66,6 +65,10 @@ function indexPage() {
         />
       </section>
       {/* <FooterBar /> */}
+      <h1 className="uppercase w-full text-center font-bold text-5xl mt-12">
+        what our customers say about us?
+      </h1>
+      <Reviews />
     </Fragment>
   );
 }

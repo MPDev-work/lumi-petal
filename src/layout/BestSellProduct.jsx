@@ -45,7 +45,7 @@ function BestSellProduct() {
         {/* Header */}
         <div className="w-full flex flex-col items-start gap-3">
           <h1 className="uppercase text-4xl tracking-tight font-semibold text-black">
-            new arrivals ⚡️
+            Best seller ⚡️
           </h1>
           <p className="text-sm text-gray-500">
             Ads - Click to explore & Add to bag
